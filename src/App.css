@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+    --color-*: initial;
+  --color-bgColor:#0a192f ;
+  --color-primaryColor:#64FFDA;
+  --color-textColor:#8892B0;
+
+  
+}
+  @theme inline {
+  --animate-background-position-spin: background-position-spin 3000ms infinite alternate;
+ 
+  @keyframes background-position-spin {
+    0% {
+      background-position: top center;
+    }
+    100% {
+      background-position: bottom center;
+    }
+  }
+}
+
